@@ -68,9 +68,7 @@ deformations
 Face2Face uses a **multi-linear 3D face model** to represent and manipulate facial geometry, appearance, and expression.
 
 #### Model Structure
-$$
-\mathrm{Face}(x) = \mathbf{a} + \mathbf{E}_{\mathrm{id}} \cdot \boldsymbol{\alpha} + \mathbf{E}_{\mathrm{alb}} \cdot \boldsymbol{\beta} + \mathbf{E}_{\mathrm{exp}} \cdot \boldsymbol{\delta}
-$$
+$\mathrm{Face}(x) = \mathbf{a} + \mathbf{E}_{\mathrm{id}} \cdot \boldsymbol{\alpha} + \mathbf{E}_{\mathrm{alb}} \cdot \boldsymbol{\beta} + \mathbf{E}_{\mathrm{exp}} \cdot \boldsymbol{\delta}$
 
 
 | 요소                                                      | 설명                             |
@@ -86,15 +84,15 @@ The face is parameterized as a combination of:
 
 
 * **Identity (shape):**
-  - Formula:  $\mathbf{a}_{\mathrm{id}} + \mathbf{E}_{\mathrm{id}} \cdot \boldsymbol{\alpha}$
+  - $\mathbf{a}_{\mathrm{id}} + \mathbf{E}_{\mathrm{id}} \cdot \boldsymbol{\alpha}$
   - $\mathbf{E}_{\text{id}} \in \mathbb{R}^{3n \times 80}$, $\boldsymbol{\alpha} \in \mathbb{R}^{80}$
 
 * **Albedo (skin color):**
-  - Formula:  $\mathbf{a}_{\text{alb}} + \mathbf{E}_{\mathrm{alb}} \cdot \boldsymbol{\beta}$
+  - $\mathbf{a}_{\text{alb}} + \mathbf{E}_{\mathrm{alb}} \cdot \boldsymbol{\beta}$
   - $\mathbf{E}_{\text{alb}} \in \mathbb{R}^{3n \times 80}$, $\boldsymbol{\beta} \in \mathbb{R}^{80}$
 
 * **Expression:**
-  - Formula: $\mathbf{E}_{\text{exp}} \cdot \boldsymbol{\delta}$
+  - $\mathbf{E}_{\text{exp}} \cdot \boldsymbol{\delta}$
 
   - $\mathbf{E}_{\text{exp}} \in \mathbb{R}^{3n \times 76}$, $\boldsymbol{\delta} \in \mathbb{R}^{76}$
 
