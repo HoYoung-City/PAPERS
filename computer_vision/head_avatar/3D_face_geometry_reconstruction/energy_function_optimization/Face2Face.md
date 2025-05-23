@@ -86,15 +86,15 @@ The face is parameterized as a combination of:
 
 
 * **Identity (shape):**
-  - :  $\mathbf{a}_{\mathrm{id}} + \mathbf{E}_{\mathrm{id}} \cdot \boldsymbol{\alpha}$
+  - Formula:  $\mathbf{a}_{\mathrm{id}} + \mathbf{E}_{\mathrm{id}} \cdot \boldsymbol{\alpha}$
   - $\mathbf{E}_{\text{id}} \in \mathbb{R}^{3n \times 80}$, $\boldsymbol{\alpha} \in \mathbb{R}^{80}$
 
 * **Albedo (skin color):**
-  - :  $\mathbf{a}_{\text{alb}} + \mathbf{E}_{\mathrm{alb}} \cdot \boldsymbol{\beta}$
+  - Formula:  $\mathbf{a}_{\text{alb}} + \mathbf{E}_{\mathrm{alb}} \cdot \boldsymbol{\beta}$
   - $\mathbf{E}_{\text{alb}} \in \mathbb{R}^{3n \times 80}$, $\boldsymbol{\beta} \in \mathbb{R}^{80}$
 
 * **Expression:**
-  - : $\mathbf{E}_{\text{exp}} \cdot \boldsymbol{\delta}$
+  - Formula: $\mathbf{E}_{\text{exp}} \cdot \boldsymbol{\delta}$
 
   - $\mathbf{E}_{\text{exp}} \in \mathbb{R}^{3n \times 76}$, $\boldsymbol{\delta} \in \mathbb{R}^{76}$
 
