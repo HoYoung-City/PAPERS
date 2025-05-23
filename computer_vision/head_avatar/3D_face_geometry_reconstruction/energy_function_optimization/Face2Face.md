@@ -1,5 +1,8 @@
 # Face2Face
 
+## Single-line summary
+- Optimize identity(via 3DMM parameter) from video sequences (Offline) -> facial expression tracking (Online) -> Expression transfer for reenactment (Online) -> re-render the synthesized target face (Online)
+
 ---
 ## Information
 | Title |  Face2Face: Real-Time Face Capture and Reenactment of RGB Videos |
@@ -364,7 +367,6 @@ $$
 * Implicit smoothness via blendshape model
 * Efficient GPU implementation
 * **Plausible and person-specific expression output**
-
 
 ---
 
