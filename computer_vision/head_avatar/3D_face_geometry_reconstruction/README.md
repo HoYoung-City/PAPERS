@@ -8,7 +8,7 @@
 
 ## 📄 Papers
 - energy_function_optimization
-  - [face2face](energy_function_optimization/face2face.md)
+  - [Face2Face](energy_function_optimization/Face2Face.md)
 
 
 ---

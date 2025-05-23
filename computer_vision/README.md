@@ -12,7 +12,7 @@
 
 ## 📄 Papers
 - head_avatar/3D_face_geometry_reconstruction/energy_function_optimization
-  - [face2face](head_avatar/3D_face_geometry_reconstruction/energy_function_optimization/face2face.md)
+  - [Face2Face](head_avatar/3D_face_geometry_reconstruction/energy_function_optimization/Face2Face.md)
 
 
 ---

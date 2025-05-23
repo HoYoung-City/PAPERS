@@ -18,7 +18,7 @@
 
 ## 📄 Papers
 - computer_vision/head_avatar/3D_face_geometry_reconstruction/energy_function_optimization
-  - [face2face](computer_vision/head_avatar/3D_face_geometry_reconstruction/energy_function_optimization/face2face.md)
+  - [Face2Face](computer_vision/head_avatar/3D_face_geometry_reconstruction/energy_function_optimization/Face2Face.md)
 
 
 ---

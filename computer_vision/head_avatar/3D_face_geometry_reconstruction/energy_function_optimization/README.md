@@ -5,7 +5,7 @@
 - [GoToBack](../README.md)
 
 ## 📄 Papers
-- [face2face](face2face.md)
+- [Face2Face](Face2Face.md)
 
 
 ---

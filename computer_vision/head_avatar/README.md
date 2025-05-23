@@ -10,7 +10,7 @@
 
 ## 📄 Papers
 - 3D_face_geometry_reconstruction/energy_function_optimization
-  - [face2face](3D_face_geometry_reconstruction/energy_function_optimization/face2face.md)
+  - [Face2Face](3D_face_geometry_reconstruction/energy_function_optimization/Face2Face.md)
 
 
 ---
