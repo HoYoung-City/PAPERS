@@ -1,10 +1,4 @@
 # 👁️ computer_vision papers
----
-- **Author**: HoYoungLEE (abc3517@naver.com)
-
-- **Description**: This repository is created for personal paper organization. If you find any mistakes, please let me know.
----
-
 
 ## 📂 Directory Structure
 - [head_avatar](head_avatar/README.md)
@@ -14,6 +8,7 @@
     - [regression](head_avatar/3D_face_geometry_reconstruction/regression/README.md)
   - [rendering](head_avatar/rendering/README.md)
 - [human_avatar](human_avatar/README.md)
+- [GoToBack](../README.md)
 
 ## 📄 Papers
 - head_avatar/3D_face_geometry_reconstruction/energy_function_optimization
