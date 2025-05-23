@@ -88,11 +88,11 @@ The face is parameterized as a combination of:
   - $\mathbf{E}_{\text{id}} \in \mathbb{R}^{3n \times 80}$, $\boldsymbol{\alpha} \in \mathbb{R}^{80}$
 
 * **Albedo (skin color):**
-  - $\mathbf{a}_{\text{alb}} + \mathbf{E}_{\mathrm{alb}} \cdot \boldsymbol{\beta}$
+  - a_alb + E_alb · β  
   - $\mathbf{E}_{\text{alb}} \in \mathbb{R}^{3n \times 80}$, $\boldsymbol{\beta} \in \mathbb{R}^{80}$
 
 * **Expression:**
-  - a_alb + E_alb · β  
+  - $\mathbf{E}_{\text{exp}} \cdot \boldsymbol{\delta}$
 
   - $\mathbf{E}_{\text{exp}} \in \mathbb{R}^{3n \times 76}$, $\boldsymbol{\delta} \in \mathbb{R}^{76}$
 
