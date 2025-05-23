@@ -68,7 +68,7 @@ deformations
 Face2Face uses a **multi-linear 3D face model** to represent and manipulate facial geometry, appearance, and expression.
 
 #### Model Structure
-$\mathrm{Face}(x) = \mathbf{a} + \mathbf{E}_{\mathrm{id}} \cdot \boldsymbol{\alpha} + \mathbf{E}_{\mathrm{alb}} \cdot \boldsymbol{\beta} + \mathbf{E}_{\mathrm{exp}} \cdot \boldsymbol{\delta}$
+- Face(x) = a + E_id · α + E_alb · β + E_exp · δ
 
 
 | 요소                                                      | 설명                             |
@@ -84,7 +84,7 @@ The face is parameterized as a combination of:
 
 
 * **Identity (shape):**
-  - $\mathbf{a}_{\mathrm{id}} + \mathbf{E}_{\mathrm{id}} \cdot \boldsymbol{\alpha}$
+  - a_id + E_id · α  
   - $\mathbf{E}_{\text{id}} \in \mathbb{R}^{3n \times 80}$, $\boldsymbol{\alpha} \in \mathbb{R}^{80}$
 
 * **Albedo (skin color):**
@@ -92,7 +92,7 @@ The face is parameterized as a combination of:
   - $\mathbf{E}_{\text{alb}} \in \mathbb{R}^{3n \times 80}$, $\boldsymbol{\beta} \in \mathbb{R}^{80}$
 
 * **Expression:**
-  - $\mathbf{E}_{\text{exp}} \cdot \boldsymbol{\delta}$
+  - a_alb + E_alb · β  
 
   - $\mathbf{E}_{\text{exp}} \in \mathbb{R}^{3n \times 76}$, $\boldsymbol{\delta} \in \mathbb{R}^{76}$
 
