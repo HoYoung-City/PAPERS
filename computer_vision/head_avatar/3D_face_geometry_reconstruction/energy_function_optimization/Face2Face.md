@@ -172,9 +172,7 @@ Aligns tracked 2D facial landmarks with projected 3D model points.
 
 Encourages parameters to stay near the mean of the multivariate normal prior:
 
-$$
-E_{\mathrm{reg}} = \left\| \frac{\alpha}{\sigma_{\mathrm{id}}} \right\|_2^2 + \left\| \frac{\beta}{\sigma_{\mathrm{alb}}} \right\|_2^2 + \left\| \frac{\delta}{\sigma_{\mathrm{exp}}} \right\|_2^2
-$$
+$E_{\mathrm{reg}} = \left\| \frac{\alpha}{\sigma_{\mathrm{id}}} \right\|_2^2 + \left\| \frac{\beta}{\sigma_{\mathrm{alb}}} \right\|_2^2 + \left\| \frac{\delta}{\sigma_{\mathrm{exp}}} \right\|_2^2$
 
 
 * Prevents **implausible facial geometry or reflectance**
@@ -200,9 +198,9 @@ Face2Face solves a **nonlinear, unconstrained optimization problem** for facial 
 
 1. **IRLS Iteration**
 
-$$
+$
 \| r(\mathcal{P}) \|_2 = \left( \| r(\mathcal{P}_{\mathrm{old}}) \|_2 \right)^{-1} \cdot \| r(\mathcal{P}) \|_1
-$$
+$
 
 
 * Fix residual weights
@@ -220,7 +218,7 @@ $$
 
    * Solve:
 $$
-J^T J \, \delta^* = -J^T F
+J^T J \delta^* = -J^T F
 $$
 
    * Solver: **Preconditioned Conjugate Gradient (PCG)**
