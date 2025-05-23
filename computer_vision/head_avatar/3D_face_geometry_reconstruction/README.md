@@ -7,8 +7,7 @@
 - [GoToBack](../README.md)
 
 ## 📄 Papers
-- energy_function_optimization
-  - [Face2Face](energy_function_optimization/Face2Face.md) : Optimize identity(via 3DMM parameter) from video sequences (Offline) -> facial expression tracking (Online) -> Expression transfer for reenactment (Online) -> re-render the synthesized target face (Online)
+  - (2016 CVPR 2016) [Face2Face](energy_function_optimization/Face2Face.md) : Optimize identity(via 3DMM parameter) from video sequences (Offline) -> facial expression tracking (Online) -> Expression transfer for reenactment (Online) -> re-render the synthesized target face (Online)
 
 
 ---

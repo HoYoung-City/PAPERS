@@ -17,8 +17,7 @@
   - [human_avatar](computer_vision/human_avatar/README.md)
 
 ## 📄 Papers
-- computer_vision/head_avatar/3D_face_geometry_reconstruction/energy_function_optimization
-  - [Face2Face](computer_vision/head_avatar/3D_face_geometry_reconstruction/energy_function_optimization/Face2Face.md) : Optimize identity(via 3DMM parameter) from video sequences (Offline) -> facial expression tracking (Online) -> Expression transfer for reenactment (Online) -> re-render the synthesized target face (Online)
+  - (2016 CVPR 2016) [Face2Face](computer_vision/head_avatar/3D_face_geometry_reconstruction/energy_function_optimization/Face2Face.md) : Optimize identity(via 3DMM parameter) from video sequences (Offline) -> facial expression tracking (Online) -> Expression transfer for reenactment (Online) -> re-render the synthesized target face (Online)
 
 
 ---

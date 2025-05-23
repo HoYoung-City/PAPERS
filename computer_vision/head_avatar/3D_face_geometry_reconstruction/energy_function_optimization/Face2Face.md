@@ -7,7 +7,7 @@
 ## Information
 | Title |  Face2Face: Real-Time Face Capture and Reenactment of RGB Videos |
 | -------------------------------------------- | ----------------------------------------------------- |
-| `Conference or Journals`                                 | IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016                                          |
+| `Conference or Journals`                                 | CVPR 2016                                 |
 | `Date`                                  | 2016 |
 | `Authors`                                   | Justus Thies, Michael Zollhöfer, Marc Stamminger, Christian Theobalt, Matthias Nießner |
 | `Authors' affiliation`                                |                               |
