@@ -86,13 +86,11 @@ The face is parameterized as a combination of:
 
 
 * **Identity (shape):**
-  - $\mathbf{a}_{\text{id}} + \mathbf{E}_{\text{id}} \cdot \boldsymbol{\alpha}$
-
+  - $\mathbf{a}_{\mathrm{id}} + \mathbf{E}_{\mathrm{id}} \cdot \boldsymbol{\alpha}$
   - $\mathbf{E}_{\text{id}} \in \mathbb{R}^{3n \times 80}$, $\boldsymbol{\alpha} \in \mathbb{R}^{80}$
 
 * **Albedo (skin color):**
-  - $\mathbf{a}_{\text{alb}} + \mathbf{E}_{\text{alb}} \cdot \boldsymbol{\beta}$
-
+  - $\mathbf{a}_{\text{alb}} + \mathbf{E}_{\mathrm{alb}} \cdot \boldsymbol{\beta}$
   - $\mathbf{E}_{\text{alb}} \in \mathbb{R}^{3n \times 80}$, $\boldsymbol{\beta} \in \mathbb{R}^{80}$
 
 * **Expression:**
@@ -172,7 +170,8 @@ Aligns tracked 2D facial landmarks with projected 3D model points.
 
 Encourages parameters to stay near the mean of the multivariate normal prior:
 
-$E_{\mathrm{reg}} = \left\| \frac{\alpha}{\sigma_{\mathrm{id}}} \right\|_2^2 + \left\| \frac{\beta}{\sigma_{\mathrm{alb}}} \right\|_2^2 + \left\| \frac{\delta}{\sigma_{\mathrm{exp}}} \right\|_2^2$
+- E_reg = || α / σ_id ||²₂ + || β / σ_alb ||²₂ + || δ / σ_exp ||²₂
+
 
 
 * Prevents **implausible facial geometry or reflectance**
@@ -198,9 +197,8 @@ Face2Face solves a **nonlinear, unconstrained optimization problem** for facial 
 
 1. **IRLS Iteration**
 
-$
-\| r(\mathcal{P}) \|_2 = \left( \| r(\mathcal{P}_{\mathrm{old}}) \|_2 \right)^{-1} \cdot \| r(\mathcal{P}) \|_1
-$
+- ‖ r(P) ‖₂ = (‖ r(P_old) ‖₂)⁻¹ · ‖ r(P) ‖₁
+
 
 
 * Fix residual weights
@@ -217,9 +215,7 @@ $
 2. **Gauss-Newton Step**
 
    * Solve:
-$$
-J^T J \delta^* = -J^T F
-$$
+$J^T J \delta^* = -J^T F$
 
    * Solver: **Preconditioned Conjugate Gradient (PCG)**
    * Output: Linear parameter update $\delta^*$
